@@ -39,6 +39,7 @@ public class HashMapExample {
 		for (int val : hash1.keySet()) {
 			
 			System.out.println("Key is : " + val);
+			System.out.println("Value is " + hash1.get(val));
 		}
 		for (String val : hash1.values()) {
 			System.out.println("String is : " + val);
